@@ -2,10 +2,11 @@
 function calculate() {
   var result;
   var temp = original.value;
-  var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
-  
+
+  var regexp = /\s*([-+]?\d+(?:\.\d*)?)\s*(?:[eE]?([-+]?\d+))?\s*(((º)?[fFcC])|([kK]))\s*/;
+
   var m = temp.match(regexp);
-  
+
   if (m) {
     var num = m[1];
     var type = m[2];
