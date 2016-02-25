@@ -2,7 +2,7 @@
 function calculate() {
   var result1, result2;
   var temp = original.value;
-  var regexp = /^\s*([-+]?\d+(?:\.\d+)?(?:e[+-]?\d+(?:\.\d+)?)?)\s*(º?(f(arenheit)?|c(elsius)?)|(k(elvin)?))\s*$/i;
+  var regexp = /^\s*([-+]?\d+(?:\.\d+)?(?:e[+-]?\d+(?:\.\d+)?)?)\s*(º?(f(a(r(e(n(heit)?)?)?)?)?|c(e(l(sius)?)?)?)|(k(e(l(vin)?)?)?))\s*$/i;
 
   var m = temp.match(regexp);
   //console.log("m[0] " + m[0] + ";"+"m[1] " + m[1] + ";"+"m[2] " + m[2] + ";");
