@@ -34,3 +34,7 @@ Conversor en JavaScript de grados Celsius a Farenheit y viceversade de temperatu
 #### Despliegue de la práctica en Github de la organización
 
 * [http://ull-esit-gradoii-pl.github.io/conversor-de-temperatura-simple-mateam/](http://ull-esit-gradoii-pl.github.io/conversor-de-temperatura-simple-mateam/)
+
+#### Enlace práctica campus virtual
+
+* [https://campusvirtual.ull.es/1516/mod/workshop/view.php?id=174676](https://campusvirtual.ull.es/1516/mod/workshop/view.php?id=174676)
